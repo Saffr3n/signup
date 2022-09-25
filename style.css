@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Norse Bold';
+  src: url(Norse-Bold.otf);
+}
+
+body {
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  display: flex;
+}
+
+.left {
+  background-image: url(bg.avif);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 12vh;
+  background-color: rgba(0, 0, 0, 0.45);
+  margin: 22vh 0;
+  padding: 12px 0;
+  font-family: 'Norse Bold';
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 100%;
+}
+
+.footer {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.left a {
+  color: white;
+}
+
+.right {
+  background-color: #fafafa;
+  padding: 15vh 0 0 0;
+  flex: 5;
+}
+
+.text {
+  padding: 0 8vw 6vh 3vw;
+}
+
+.heading {
+  padding-bottom: 2vh;
+}
+
+.text,
+.heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+form {
+  background-color: white;
+  padding: 2vh 8vw 0 3vw;
+}
+
+.input-row {
+  margin-bottom: 2vh;
+  display: flex;
+  gap: 5vw;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input {
+  width: 15vw;
+  padding: 4px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 4px 4px 4px blue;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.message {
+  font-size: 0.6rem;
+  color: red;
+  padding-top: 4px;
+}
+
+label {
+  font-size: 0.7rem;
+}
+
+.btn-bg {
+  background-color: #fafafa;
+  margin: 0 -8vw 0 -3vw;
+  padding: 3vh 0 3vh 3vw;
+  box-shadow: 0 4px 4px #dadada inset;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  font-weight: bold;
+  padding: 1vh 4vw;
+  border-radius: 8px;
+}
+
+.login {
+  padding: 0 3vw;
+}
+
+.right a {
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
+}
